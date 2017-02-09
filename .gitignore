@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+.idea/vcs.xml
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/runConfigurations/
+.idea
