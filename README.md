@@ -1,24 +1,31 @@
-# README
+# 500px Gallery
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an application which uses the 500px API to create 
+a simple gallery app which displays the popular photos.
 
-Things you may want to cover:
+Created by [Mohit Deshpande](https://github.com/mohitDeshpande)
 
-* Ruby version
+## Installation
 
-* System dependencies
+Please clone this repository and install the required gems
+```
+$ bundle install
+```
 
-* Configuration
+Migrate the database
+```
+$ rails db:migrate
+```
 
-* Database creation
+Run the test suite 
+```
+$ rails test
+```
 
-* Database initialization
+If the test suite passes then run the code in your local server
+```
+$ rails server
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+// TBD
